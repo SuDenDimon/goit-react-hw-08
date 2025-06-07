@@ -1,0 +1,51 @@
+.containerText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2c3e50;
+    width: 100%; /* Забезпечує максимальну ширину контейнера */
+    word-break: break-word; /* Розрив слова при необхідності */
+    overflow-wrap: break-word; /* Переносить довгі слова або email-и */
+    white-space: normal; /* Дозволяє перенос тексту */
+}
+
+.btn {
+    border: 1px solid #888;
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: auto;
+    padding: 4px 12px;
+    font-weight: 500;
+    height: 36px;
+    display: flex;
+    align-items: center;
+        
+}
+
+.btn:hover {
+    background-color: #8850f0;
+    color: white;
+    border: none;
+}
+
+
+.error {
+    color: #d8000c;
+    background-color: #ffbaba;
+    padding: 5px;
+    border: 1px solid #d8000c;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 500;
+}
